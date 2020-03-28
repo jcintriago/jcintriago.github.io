@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// In order to translate HtmlQ or to customize the texts,
+// just change the text between the opening and the closing
+// tag. The attribute 'id' is the name of the variable
+// and must remain unchanged.
+//
+// You can use HTML-tags, but you have to braces instead
+// of the normal angle brackets, otherwise the import will fail.
+// Example: {b}bold{/b}
+//
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// ===================================================
+//
+-->
+
+<language version="1.0" htmlParse="true">
+
+  <!-- misc -->
+  <item id="btnContinue">Continue...</item>
+  <item id="btnclose">Close</item>
+  <item id="btnHelp">Help me!</item>
+  <item id="btnAgreement">Agree</item>
+  <item id="btnNeutral">Indifferent/Unsure</item>
+  <item id="btnDisagreement">Disagree</item>
+  <item id="btnTransfer">Submit data</item>
+  <item id="btnMail">Send via email</item>
+  <item id="btnPrint">Print data (save as PDF)</item>
+  <item id="btnExit">Exit</item>
+  <item id="selectItem">Please select...</item>
+
+  <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+  <item id="leaveSiteWarning">Your answers will be lost.</item>
+
+  <!-- HtmlQ only: In-App Back Button -->
+  <item id="backButton">Back</item>
+  <item id="fillInRequiredFields">Please fill in all required fields.</item>
+
+  <!-- errors -->
+  <item id="errorHead">Error!</item>
+  <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+  <!-- welcome screen (leave blank to skip screen) -->
+  <item id="welcomeHead">Informed Consent</item>
+  <item id="welcomeText">You are being invited to participate in a doctoral research study titled DARE-TU: Developing Agriculture and Renewable Energy with the Turbine Pump. This study is being done by Juan Carlo Intriago Zambrano, current doctoral candidate from the TU Delft.{br}{br}The purpose of this particular activity is to assess, by means of Q-methodology, stakeholders' perceptions about the adoption of the Barsha pump by Nepali smallholders. It will take you approximately 40 minutes to complete. The data may be aggregated and summarized in published articles, reports and presentations.{br}{br}Your participation in this study is entirely voluntary and you can withdraw at any time.{br}{br}We believe there are no known risks associated with this research study; however, as with any online related activity the risk of a breach is always possible. To the best of our ability your answers in this study will remain strictly confidential. Your data will only be viewed by the researcher / research team. We will minimize any risks by storing all electronic data in a password-protected computer and related cloud systems.{br}{br}For further details please contact the researcher at J.C.IntriagoZambrano@tudelft.nl or visit https://www.tudelft.nl/en/privacy-statement/. {br}{br}{b}By clicking "CONTINUE", you agree that you have read this data use and consent information and that you agree to participate in this research.{/b}</item>
+
+  <!-- user login, only displayed if access is restricted (see config-file) -->
+  <item id="loginHead">User code</item>
+  <item id="loginText">Please enter your user code. Please note, that in this demo any user code will be accepted.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="loginFormHeader">User code</item>
+  <item id="loginNoInput">Please insert your user code.</item>
+  <item id="loginInvalidInput">User code invalid</item>
+  <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+  <!-- introduction (leave blank to skip popup) -->
+  <item id="introHead">About this study</item>
+  <item id="introText">The purpose of this study is to assess stakeholders' perceptions regarding the adoption of the Barsha pump by Nepali smallholders.{br}{br}{b}{i}If you are not acquainted with the Barsha pump, it is strongly recommended that you first go through these hyperlinks (copy and paste them in your web browser):{/i}{/b}{br}{br}1) Short description and pictures: {b}{i}https://tinyurl.com/wvnno6j{/i}{/b}{br}2) Short video: {b}{i}https://www.youtube.com/watch?v=smK3KaHtHcY{/i}{/b}{br}3) Short video: {b}{i}https://www.youtube.com/watch?v=B9Q168O-YZk{/i}{/b}{br}{br}The data collected will identify areas of conflict and consensus within different points of view. As such, it is important to remember that we are assessing your own personal perceptions. Please answer all questions based on your own personal opinion and knowledge.{br}{br}-----{br}{br}For completing this survey, {b}{i}please assume you are a Nepali smallholder{/i}{/b}; it can be, for instance, a farmer you have previously met or you are acquainted with due to your usual work. While answering, you may think of the following overarching question:{br}{br}{b}{i}WHAT IS MY OPINION ABOUT THE ADOPTION OF THE BARSHA PUMP BY NEPALI SMALLHOLDERS?{/i}{/b}{br}{br}When you are done, you will need to submit the data by email. Please ensure that you have sent your results before exiting the browser.{br}{br}{b}*PLEASE NOTE: DEPENDING ON THE SIZE OF YOUR SCREEN, YOU MAY NEED TO ADJUST THE "ZOOM" FUNCTION ON YOUR INTERNET BROWSER.{/b} Please adjust your zoom setting appropriately to enable you to see the entire study on your screen. This is usually done in your browser settings that are found at the top right corner of your browser.</item>
+
+  <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+  <item id="step1Head">Step 1 of 5</item>
+  <item id="step1Text">Read the following statements carefully and split them up into three piles by dragging the statement card into the appropriate box.{br}{br}In the "DISAGREE" pile, place the statements that you tend to DISAGREE with. In the "AGREE" pile, place the statements that you tend to AGREE with.{br}{br}For statements that you do not particularly agree or disagree with, or for statements that you do not know or are unsure of, please place them in the "INDIFFERENT/UNSURE" pile.{br}{br}You do not need to worry about evenly distributing your statements across the three piles- you can place as many or as few statements as you like in any of the three piles.{br}{br}{b}*PLEASE NOTE: YOU CAN RE-READ THE SURVEY INSTRUCTIONS AT ANYTIME BY CLICKING THE "HELP ME!" BUTTON AT THE BOTTOM RIGHT CORNER OF THE PAGE.{/b}</item>
+
+  <!-- step2: sorting (leave blank to skip popup) -->
+  <item id="step2Head">Step 2 of 5</item>
+  <item id="step2Text">Now it is time for you to place the statement cards on the grid.{br}{br}How you place the statement cards on the grid will represent your perceptions of the adoption of the Barsha pump by Nepali smallholders. As you see, the grid is labeled "DISAGREE" (-4 column) and "AGREE" (+4 column).{br}{br}To start, please read the following steps carefully:{br}{br}{b}A){/b} Read through all the statements that are in the "AGREE" pile. Please choose two statements from the "AGREE" pile that you are most in agreement regarding the adoption of the Barsha pump by Nepali smallholders, and drag these statement onto the grid under "AGREE" (under the +4 column).{br}{br}{b}B){/b} Read through all the statements that are in the "DISAGREE" pile. Please choose two statements from the "DISAGREE" pile that you are most in disagreement regarding the adoption of the Barsha pump by Nepali smallholders. Drag these statements onto the grid under "DISAGREE" (under the -4 column).{br}{br}{b}C){/b} Select three statements from the AGREE pile that are the next most in agreement with what you think and place them under the +3 column.{br}{br}{b}D){/b} Select three statements from the DISAGREE pile that are the next most in disagreement with what you think and place them under the -3 column.{br}{br}{b}E){/b} Follow this procedure for all of the cards in the "AGREE" and "DISAGREE" piles, moving towards the center of the grid as appropriate.{br}{br}{b}F){/b} Finally, read the "INDIFFERENT/UNSURE" cards again and arrange them in the remaining open boxes on the grid.{br}{br}*PLEASE NOTE: All statements within a column are rated the same. You do not need to arrange statements within columns, only between columns.{br}{br}{b}*PLEASE NOTE: YOU CANNOT USE THE 'BACK' FUNCTION ON YOUR BROWSER AT THIS STAGE.{/b}</item>
+
+  <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+  <item id="step3Head">Step 3 of 5</item>
+  <item id="step3Text">Please review your distribution once more and make any changes by dragging a statement into the desired box on the grid.{br}{br}If you cannot read the entire statement due to size restrictions, please note that you can hover your pointer over a statement to see the entire text.</item>
+
+  <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+  <item id="step4Head">Step 4 of 5</item>
+  <item id="step4Text">To give more depth to your responses, please explain why you chose these statements as the most in agreement and disagreement regarding the adoption of the Barsha pump by Nepali smallholders.</item>
+
+  <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <item id="step5Head">Step 5 of 5</item>
+  <item id="step5Text">Please read and check the consent and data use check-boxes. Afterwards, you will be asked to answer some extra questions regarding your background.{br}{br}PLEASE NOTE: You will need to submit your data on the next page of the study. After you have completed this page, please submit it by email to {b}J.C.IntriagoZambrano@tudelft.nl{/b}.</item>
+
+  <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+  <item id="transferHead">Submit Data</item>
+  <item id="transferText">You've finished the survey. Please submit your data now to {b}J.C.IntriagoZambrano@tudelft.nl{/b}.{br}{br}Note that in order to use the button "Send via email" you need an email client like Outlook or Thunderbird.</item>
+  <item id="transferFailed">Data submission failed. Please try again or mail your results via email/post.</item>
+  <item id="transferOk">Thank you for using FlashQ. We would appreciate if you could send us feeddback about this application (bugs, ideas, suggestion, etc.).{br}{br}Christian Hackert{br}{a href="http://www.hackert.biz/flashq" target="_blank"}{u}www.hackert.biz/flashq{/u}{/a}.{br}{br}You can now close your browser window.</item>
+
+  <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
+  <item id="mailHead">Submit Data</item>
+  <item id="mailText">You can either submit your data either via email or post. In the former case you'll need an email client like Outlook, in the latter a printer.</item>
+
+  <!-- e-mail-body -->
+  <item id="mailBody">Thank you for participating in our survey. Please do not modify the following text:</item>
+
+  <!-- print out -->
+  <item id="printoutText">{b}Please send these results (as a PDF file) to J.C.IntriagoZambrano@tudelft.nl{/b}.{br}{br}Thank you very much for your participation!{br}{br}</item>
+
+</language>

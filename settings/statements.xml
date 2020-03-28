@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+// 
+// This is the place for your statements. The maximum 
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special 
+// characters, make sure, that you save this XML-file 
+// as an UTF-8-document. White-space inbetween the 
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and 
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node 
+// consisting out of an opening and a closing tag. The 
+// statement itself goes between this two tags. 
+// The unique statement id is saved as an 
+// attribute called 'id'. We have three exmaple 
+// statements and we need therefore three statement-
+// nodes and one parent-node. 
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+// 
+// ===================================================
+// 
+-->
+
+<statements version="1.0" htmlParse="false">
+  <statement id="1">I need financial aid from an external organisation or person to deal with the installation and commissioning costs required by the Barsha pump</statement>
+  <statement id="2">I need financial aid from an external organisation or person to deal with the operation costs required by the Barsha pump</statement>
+  <statement id="3">The savings on the operation of the Barsha pump—because it does not need electricity or diesel—is worth the (relatively) high upfront cost</statement>
+  <statement id="4">I prefer to pay more to have extra optional infrastructure in my farm (e.g. sprinklers, drippers), so I can make better use of the water provided by the Barsha pump</statement>
+  <statement id="5">I prefer to pay more to have additional technical assistance (e.g. irrigation advices, growing advices) beyond just irrigation water provided by the Barsha pump</statement>
+  <statement id="6">It is more convenient for me to make use of the Barsha pump without being the owner</statement>
+  <statement id="7">The natural landscape does not require considerable modifications to install the Barsha pump</statement>
+  <statement id="8">The water bodies do not require considerable modifications to install the Barsha pump</statement>
+  <statement id="9">The existing irrigation infrastructure (e.g. canals, gates) does not require considerable modifications and adaptations to install the Barsha pump</statement>
+  <statement id="10">An external organisation or person must be in charge of installing and commissioning the Barsha pump</statement>
+  <statement id="11">Some members of the community could have job positions by being involved in the installation and commissioning of the Barsha pump</statement>
+  <statement id="12">An external organisation or person must be in charge of operating the Barsha pump</statement>
+  <statement id="13">Some members of the community could have job positions by being involved in the operation of the Barsha pump</statement>
+  <statement id="14">I prefer to use the Barsha pump over electricity- or diesel-based water pumps because it operates on clean energy</statement>
+  <statement id="15">An external organisation or person must assist me in how to irrigate with the water provided by the Barsha pump</statement>
+  <statement id="16">An external organisation or person must assist me in how to grow more efficiently with the water provided by the Barsha pump</statement>
+  <statement id="17">An external organisation or person must be in charge of maintaining the Barsha pump</statement>
+  <statement id="18">Some members of the community could have job positions by being involved in the maintenance of the Barsha pump</statement>
+  <statement id="19">I think my farm facilitates the installation and commissioning of the Barsha pump</statement>
+  <statement id="20">I think the Barsha pump can be installed straightforward in my farm without much expertise</statement>
+  <statement id="21">I think my farm facilitates operating the Barsha pump</statement>
+  <statement id="22">I think the Barsha pump can be operated straightforward in my farm without much expertise</statement>
+  <statement id="23">I think that a person without much expertise can provide maintenance to the Barsha pump</statement>
+  <statement id="24">I think the Barsha pump can provide enough volume of water to my farm for producing year round</statement>
+  <statement id="25">I think the Barsha pump can provide enough water pressure to my farm for producing year round</statement>
+  <statement id="26">The Barsha pump helps me more than other water pumps in increasing my agricultural production</statement>
+  <statement id="27">The Barsha pump helps me more than other water pumps in growing new cash crops</statement>
+  <statement id="28">The Barsha pump improves my quality of life</statement>
+  <statement id="29">The use of the Barsha pump in my farm saves me labour</statement>
+  <statement id="30">I would recommend other farmers to use the Barsha pump as well</statement>
+  <statement id="31">I would prefer a person from my own country to provide me with the Barsha pump</statement>
+  <statement id="32">I prefer to see another person using the Barsha pump before using it myself</statement>
+  <statement id="33">I think the Barsha pump would be more valuable if seeds are provided along with it</statement>
+  <statement id="34">I would like to have entrepreneurial training on the Barsha pump, so I can start my own business</statement>
+  <statement id="35">The laws of my country facilitates me to have access to the Barsha pump</statement>
+  <statement id="36">The national government facilitates me to have access to the Barsha pump</statement>
+  <statement id="37">The local government facilitates me to have access to the Barsha pump</statement>
+  <statement id="38">NGOs operating in the area of my community facilitate me to have access to the Barsha pump</statement>
+</statements>
